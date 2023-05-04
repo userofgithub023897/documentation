@@ -38,6 +38,11 @@ Nextcloud 27 no longer loads classes in the deprecated :ref:`PSR-0 naming standa
 Added APIs
 ^^^^^^^^^^
 
+* ``\OCP\AppFramework\Http\EmptyContentSecurityPolicy::allowEvalWasm(bool)``: sets ``wasm-unsafe-eval`` in ``script-src`` of the Content Security Policy `to allow compilation and execution of WebAssembly on the page <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src#unsafe_webassembly_execution>`_
+
+  * ``wasm-unsafe-eval`` is `supported by most browsers <https://caniuse.com/mdn-http_headers_content-security-policy_script-src_wasm-unsafe-eval>`_
+  * WebAssembly compilation and execution in worker threads is not affected by this directive (browsers allow compilation and execution of WebAssembly in worker threads by default)
+
 * tbd
 
 Changed APIs

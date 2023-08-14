@@ -21,6 +21,7 @@ You can create a direct, one-on-one chat by searching for the name of a user, a 
 If you want to create a custom group conversation, click the ``⋮`` button next to the filters button and then on ``create a new conversation``. 
 
 .. image:: images/create-new-conversation.png
+    :width: 300px
 
 You can then pick a name for the conversation and select if the conversation should be open to external users and if other users on the server can see and join the conversation.
 
@@ -37,7 +38,7 @@ You can cancel the creation of a conversation by clicking outside the white menu
 .. image:: images/new-room.png
 
 View all open conversations
------------------------
+---------------------------
 
 You can view all the conversations that you can join by accessing the conversations list through the ``⋮``  menu next to the filters button and clicking on ``Join open conversations.``
 
@@ -45,7 +46,7 @@ You can view all the conversations that you can join by accessing the conversati
     :width: 500px
 
 Filter your conversations
------------------------
+-------------------------
 
 You can filter your conversations using the filter button located next to the search field. There are two options for filtering:
 1. Filter unread mentions: This option allows you to view group conversations with unread mentions or unread one-on-one conversations.
